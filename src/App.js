@@ -16,7 +16,7 @@ function App() {
 
   function startTimer() {
     if (intervalRef.current !== null) return;
-    setTitle("Great");
+    setTitle("You can do it!");
     setisRunning(true);
 
     intervalRef.current = setInterval(() => {
